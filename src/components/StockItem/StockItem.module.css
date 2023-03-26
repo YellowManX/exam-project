@@ -1,0 +1,17 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 2px solid teal;
+  margin-top: 15px;
+}
+.product span {
+  display: block;
+}
+.product strong {
+  display: block;
+}
+.product__btns {
+  display: flex;
+  column-gap: 6px;
+}

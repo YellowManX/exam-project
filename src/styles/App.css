@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 800px;
+  padding-top: 30px;
+}
+
+.App hr {
+  margin: 15px 0;
+}
+.product-enter {
+  transform: translateX(-350px);
+}
+.product-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+.product-exit {
+  opacity: 1;
+}
+.product-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}

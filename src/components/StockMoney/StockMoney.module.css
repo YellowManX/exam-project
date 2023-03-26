@@ -1,0 +1,6 @@
+.stock__money {
+  width: max-content;
+  border: 1px solid teal;
+  padding: 10px;
+  margin-bottom: 10px;
+}
